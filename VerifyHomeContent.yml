@@ -1,0 +1,4 @@
+appId: com.l
+---
+- assertVisible: "Let's plan your shopping!"
+- assertVisible: "Tap the plus button to create your first list"

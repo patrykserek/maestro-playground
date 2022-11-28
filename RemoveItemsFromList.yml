@@ -1,0 +1,11 @@
+appId: com.l
+---
+- longPressOn: "tomato"
+- tapOn: "DELETE"
+- longPressOn: "bread"
+- tapOn: "DELETE"
+- longPressOn: "milk"
+- tapOn: "DELETE"
+- assertNotVisible: "tomato"
+- assertNotVisible: "bread"
+- assertNotVisible: "milk"

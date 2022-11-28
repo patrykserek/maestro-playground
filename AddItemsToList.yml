@@ -1,0 +1,15 @@
+appId: com.l
+---
+- tapOn: "Shopping"
+- tapOn: "ADD"
+- inputText: "tomato"
+- tapOn: "Done"
+- inputText: "bread"
+- tapOn: "Done"
+- inputText: "milk"
+- tapOn: "Done"
+- hideKeyboard
+- back
+- assertVisible: "tomato"
+- assertVisible: "bread"
+- assertVisible: "milk"

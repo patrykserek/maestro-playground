@@ -1,0 +1,7 @@
+appId: com.l
+---
+- tapOn: "NEW LIST"
+- inputText: "Shopping"
+- tapOn: "CREATE"
+- back
+- assertVisible: "Shopping"

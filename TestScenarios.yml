@@ -1,0 +1,7 @@
+appId: com.l
+---
+- launchApp
+- runFlow: VerifyHomeContent.yml
+- runFlow: CreateNewList.yml
+- runFlow: AddItemsToList.yml
+- runFlow: RemoveItemsFromList.yml
